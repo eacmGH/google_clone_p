@@ -33,3 +33,15 @@ a {
 .header__nav-profile-image {
   border-radius: 50%;
 }
+.main{
+  text-align: center;
+  margin-top: 250px;
+}
+.main__logo{
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.main__logo-img {
+  width: 300px;
+}
