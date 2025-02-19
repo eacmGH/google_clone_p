@@ -35,7 +35,7 @@ a {
 }
 .main{
   text-align: center;
-  margin-top: 250px;
+  margin-top: 150px;
 }
 .main__logo{
   width: 530px;
@@ -90,5 +90,54 @@ a {
   background-size: cover;
   width: 25px;
   height: 25px;
+  margin-right: 20px;
+}
+.main__buttons {
+  width: 530px;
+  margin: 0 auto;
+}
+.main__buttons-item {
+  display: inline-block;
+}
+.main__button {
+  height: 36px;
+  background-color: #f8f9fa;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 0 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.main__button:hover {
+  outline: 1px solid #dfe1e5;
+  box-shadow: 0 1px 3px 0 #20214447;
+}
+.footer {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #f2f2f2;
+}
+.footer__nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding-left: 20px;
+}
+.footer__nav--left {
+  justify-self: left;
+}
+.footer__nav--right {
+  justify-self: right;
+}
+.footer__nav-link {
+  color: #1f1f1f;
   margin-right: 20px;
 }
