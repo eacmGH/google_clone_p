@@ -45,3 +45,50 @@ a {
 .main__logo-img {
   width: 300px;
 }
+.main__search {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.main__search-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 6px 0 #20214447;
+  border-color: #dfe1e500;
+}
+.main__search-container:hover {
+  border-color: #dfe1e5;
+}
+.main__search-icon {
+  background-image: url(../images/lupa.svg);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin-left: 20px;
+  margin-right: 15px;
+  opacity: 0.5;
+}
+.main__search-input {
+  width: 450px;
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.main__search-micro {
+  background-image: url(../images/busqueda_por_voz.svg);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
+.main__search-voice-icon {
+  background-image: url(../images/busqueda_por_imagen.svg);
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+}
